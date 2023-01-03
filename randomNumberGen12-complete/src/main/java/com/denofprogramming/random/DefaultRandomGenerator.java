@@ -14,7 +14,7 @@ public class DefaultRandomGenerator implements RandomGenerator
 
     public String name()
     {
-	return "Main Randon Number Generator";
+	return "Main Random Number Generator";
     }
 
     public int generate()
