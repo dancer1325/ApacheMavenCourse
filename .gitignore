@@ -1,6 +1,15 @@
+### Target files
 /target/
 */target/*
 
 ### IDE
 .idea
 **.iml
+
+### Package Files
+*.jar
+*.war
+*.ear
+
+### Java
+*.class
