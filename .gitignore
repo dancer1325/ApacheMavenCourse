@@ -13,3 +13,6 @@
 
 ### Java
 *.class
+
+### Eclipse Core
+*.project
