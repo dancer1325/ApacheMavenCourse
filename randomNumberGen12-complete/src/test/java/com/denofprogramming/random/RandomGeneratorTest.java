@@ -30,7 +30,7 @@ public class RandomGeneratorTest
     @Test
     public void testName()
     {
-	Assert.assertSame("Name is not the same as expected: ", "Main Randon Number Generator", randomGenerator.name());
+	Assert.assertSame("Name is not the same as expected: ", "Main Random Number Generator", randomGenerator.name());
     }
 
     @Test
