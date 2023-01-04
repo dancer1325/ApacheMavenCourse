@@ -1,13 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<!-- Include a Parent POM -->
 	<parent>
 		<groupId>com.denofprogramming</groupId>
 		<artifactId>parent2-complete</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
+    <!-- If the GroupId and version == Parent Pom one, then we can comment it, and being inherited, by the parent one  -->
+    <!-- <groupId>com.denofprogramming</groupId> -->
 	<artifactId>pickNumberApplication2-complete</artifactId>
+	<!-- <version>0.0.1-SNAPSHOT</version> -->
 	<packaging>jar</packaging>
 
 	<name>Pick a Number Application Complete</name>

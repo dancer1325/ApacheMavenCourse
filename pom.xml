@@ -4,7 +4,8 @@
 	<groupId>com.denofprogramming</groupId>
 	<artifactId>parent2-complete</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>pom</packaging>  <!-- Since this Maven project just contains the Parent POM -->
+
 
 	<properties>
 		<my.prop>This is my property</my.prop>
