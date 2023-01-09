@@ -47,6 +47,7 @@
 		</pluginManagement>
 	</build>
 
+    <!-- dependencyManagement to centralize dependency information in the parent pom -->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>

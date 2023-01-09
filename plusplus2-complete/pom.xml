@@ -26,10 +26,12 @@
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
+			<!-- Unnecessary to specify the version, because it's indicated in the parent pom -->
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
+			<!-- Unnecessary to specify the version, because it's indicated in the parent pom -->
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
